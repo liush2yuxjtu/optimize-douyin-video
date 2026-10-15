@@ -18,6 +18,18 @@ MCP 使用 stdio：`node src/mcp-server.js`。
 这是本地 MCP，尚未注册为 ChatGPT 独立 connector；不等于公网 MCP endpoint。
 本工具不能保证平台不会限制自动化访问；遇到验证或风控停止自动操作。
 
+## Codex 视频制作启动检查
+
+项目包含一个项目级 Codex `SessionStart` hook：
+
+- 配置：`.codex/hooks/hooks.json`
+- 脚本：`.codex/hooks/session_start_ffmpeg.sh`
+- 说明：[docs/codex-ffmpeg-session-hook.md](docs/codex-ffmpeg-session-hook.md)
+
+新会话启动、恢复、清空或压缩上下文时，hook 会检查 `ffmpeg` 和 `ffprobe`。缺少任一程序且本机有 Homebrew 时，它会运行 `brew install ffmpeg`。它不读取凭据，不操作抖音账号，不发布内容。
+
+GitHub 提交只保存 hook 文件。它不会自动把 FFmpeg 安装到其他机器。Codex 可能要求首次信任项目级 hook。
+
 ## 后续验收
 本人完成登录后读取账号标识确认目标账号，再核验作品列表与数据权限。
 任何对外发布操作另行审批，当前服务在工具层不包含此能力。
