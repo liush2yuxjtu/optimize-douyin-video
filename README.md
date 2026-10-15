@@ -53,3 +53,13 @@ MCP 使用 stdio：`node src/mcp-server.js`。
 ## Skills 发现与整合优先级
 
 查看 [GrokBots skills 索引与分级](docs/grokbots-skills-index.md)：覆盖 30 个 skill 入口和 7 个重点模块，记录优先级、依赖、重复项及待验证问题。可程序读取 [JSON 索引](docs/grokbots-skills-index.json)。索引不代表安装或运行验收完成。
+
+## 已整合的 P0 工作流
+
+本次只整合三个 P0，按以下顺序读取：
+
+1. [viral-topic-picking](skills/viral-topic-picking/SKILL.md)：5–10 个候选、四问评分、前三钩子与口播草稿。
+2. [story-research](skills/story-research/SKILL.md)：来源研究、故事候选统一评分、3–6 节拍分镜。
+3. [speak-in-my-voice](skills/speak-in-my-voice/SKILL.md)：用真实语气样本修订照念稿，检查事实、朗读与提词排版。
+
+三项均为针对抖音的改写版，来源固定在 skills-sources.json。四问是编辑启发；经典著作可选且引用须核实；故事评分按实际视频 brief 调整。已检查 frontmatter、名称与内部链接；没有执行 Grokbot、录屏、渲染或发布，也尚未验收真实手机排版。

@@ -4,7 +4,7 @@
 
 完整目录树扫描：572 项 / 428 个文件 / 30 份 SKILL.md / 53 份 built-in-skills 文档。下表覆盖全部 30 个 skill 入口，另列 7 个重点模块。并非 428 个文件都已逐行审计。深读重点为选题、口播、录屏、动画、编码与依赖接口。
 
-来源仓库为私有仓库，链接需要原有权限；这里只收录索引与评估，不复制私有源文件、账号配置、运行日志或凭据。机器可读版本：[grokbots-skills-index.json](grokbots-skills-index.json)。
+来源仓库为私有仓库，链接需要原有权限；索引保留源码定位；本次按仓库所有者要求仅提炼改写三个 P0 工作流，不包含账号配置、运行日志或凭据。机器可读版本：[grokbots-skills-index.json](grokbots-skills-index.json)。
 
 ## 推荐执行顺序
 
@@ -13,7 +13,7 @@
 3. P2：复用已有营销技能，按需引入站外传播能力。
 4. P3：基础设施及其他项目专用技能暂缓。
 
-P0/P1 是整合优先级，不代表发现了生产事故。所有新增候选均只做源码检查，未安装、未渲染，不能记为运行通过。
+P0/P1 是整合优先级，不代表发现了生产事故。三个 P0 已适配入库并通过格式与链接检查；其他候选仍为源码评估。均未做成片或手机排版验收，不代表安装到 ChatGPT。
 
 ## 已核实的整合问题
 
@@ -47,18 +47,18 @@ P0/P1 是整合优先级，不代表发现了生产事故。所有新增候选�
 | P3 | [claude-design-reference](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/mbp-monitor/skills/claude-design-reference/SKILL.md) | 暂缓 | 基础设施或项目专用参考 | 不纳入抖音创作主链 |
 | P3 | [claude-skill-design](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/mbp-monitor/skills/claude-skill-design/SKILL.md) | 暂缓 | 基础设施或项目专用参考 | 不纳入抖音创作主链 |
 | P3 | [verify](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/paperradar/verify/SKILL.md) | 暂缓 | 基础设施或项目专用参考 | 不纳入抖音创作主链 |
-| P0 | [speak-in-my-voice](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/pitch-bot/skills/speak-in-my-voice/SKILL.md) | 待适配 | 个人口吻与照念稿 | 改为短视频场景；规范 skill name；实际检查手机排版 |
+| P0 | [speak-in-my-voice](../skills/speak-in-my-voice/SKILL.md) | 已适配入库 | 个人口吻与照念稿 | 按实际 brief 使用；成片与手机排版需实测 |
 | P2 | [yc-pitch-customer](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/pitch-bot/skills/yc-pitch-customer/SKILL.md) | 低关联 | 客户访谈、销售话术 | 只提炼表达方法；不引入会议 app 和定时录音流程 |
 | P2 | [seo-audit](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/seo-audit/skills/seo-audit/SKILL.md) | 低关联 | 网站 SEO | 不把网页 SEO 当作抖音推荐算法优化 |
 | P3 | [archifax](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/archifax/SKILL.md) | 暂缓 | 基础设施或项目专用参考 | 不纳入抖音创作主链 |
 | P3 | [clash-node-probe](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/clash-node-probe/SKILL.md) | 暂缓 | 基础设施或项目专用参考 | 不纳入抖音创作主链 |
-| P0 | [viral-topic-picking](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/viral-topic-picking/SKILL.md) | 待适配 | 选题、钩子、六段口播 | 把四问标为创作启发；老书限制改为可选；先核对引用来源 |
+| P0 | [viral-topic-picking](../skills/viral-topic-picking/SKILL.md) | 已适配入库 | 选题、钩子、六段口播 | 按实际 brief 使用；成片与手机排版需实测 |
 | P2 | [yc-pitch](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/yc-pitch/SKILL.md) | 低关联 | 项目价值表达 | 只提炼叙事结构，不复制融资流程 |
 | P3 | [tailscale-site-monitor](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/tailnetbot/skills/tailscale-site-monitor/SKILL.md) | 暂缓 | 基础设施或项目专用参考 | 不纳入抖音创作主链 |
 | P1 | [eli5-gen-gb](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/voice-call-setter/skills/eli5-gen-gb/SKILL.md) | 待适配 | 图解分镜 | 映射当前 image tool；另补旁白、剪辑与合成 |
 | P1 | [eli5-svg-gb](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/voice-call-setter/skills/eli5-svg-gb/SKILL.md) | 待适配 | 可编辑 SVG 图解 | 保留 SVG/PNG 源；另补动画与视频合成 |
 | P2 | [eli5](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/voice-call-setter/skills/eli5/SKILL.md) | 入口重复 | 图解默认入口 | 与 eli5-gen-gb 合并；避免 /eli5 同时触发 SVG 与图片路径 |
-| P0 | [story-research](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/feature-recorder/skills/record-production-feature/references/story-research.md) | 待适配 | 故事调研和候选评分 | 将 8 秒无声 GIF 的评分权重调整为实际视频目标 |
+| P0 | [story-research](../skills/story-research/SKILL.md) | 已适配入库 | 故事调研和候选评分 | 按实际 brief 使用；成片与手机排版需实测 |
 | P1 | [animated-video](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/built-in-skills/animated-video.md) | 待适配 | 9:16 连续分镜、可调时间线 | 需要 animations-v3.jsx 与 Tweaks 组件 |
 | P1 | [export-as-video](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/built-in-skills/export-as-video.md) | 待适配 | 逐帧导出使用说明 | 默认 __animStage 与 v3 未接通 |
 | P1 | [gen-video](https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/agents/gen-video/package.json) | 待适配 | 实际视频渲染程序 | Playwright + Chromium + FFmpeg；补桥接；本地编码器无音频混合 |

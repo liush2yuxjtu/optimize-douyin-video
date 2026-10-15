@@ -62,6 +62,36 @@
       "license": "No repository license found; copied at repository owner request; no additional license granted",
       "modified": false,
       "sha256": "181883e539caec8258ec9129e3ba5f133409144a2cbf2aa361158ab94cfc3441"
+    },
+    {
+      "skill": "speak-in-my-voice",
+      "repository": "liush2yuxjtu/GrokBots",
+      "commit": "ae8dce0adfb6551cd782247eab520f80d407e31b",
+      "source_path": "pitch-bot/skills/speak-in-my-voice/SKILL.md",
+      "license": "Adapted at repository owner request; no additional license granted",
+      "modified": true,
+      "sha256": "54a24485b2998007f19e9b1cb0fce650162a1b4dd5647d67fdb1f4e2ccb5b189",
+      "changes": "改为短视频场景；规范 skill name；实际检查手机排版"
+    },
+    {
+      "skill": "viral-topic-picking",
+      "repository": "liush2yuxjtu/GrokBots",
+      "commit": "ae8dce0adfb6551cd782247eab520f80d407e31b",
+      "source_path": "shared-skills/viral-topic-picking/SKILL.md",
+      "license": "Adapted at repository owner request; no additional license granted",
+      "modified": true,
+      "sha256": "bb363e21811a0f5aa9baf42a3c7d971ab3bdefdaa5f63f63ea75dea38614a2ae",
+      "changes": "把四问标为创作启发；老书限制改为可选；先核对引用来源"
+    },
+    {
+      "skill": "story-research",
+      "repository": "liush2yuxjtu/GrokBots",
+      "commit": "ae8dce0adfb6551cd782247eab520f80d407e31b",
+      "source_path": "feature-recorder/skills/record-production-feature/references/story-research.md",
+      "license": "Adapted at repository owner request; no additional license granted",
+      "modified": true,
+      "sha256": "00f17efa8dbcee8e1c915aff8502a289ca915f2939472678bdcef171bdc4a5ac",
+      "changes": "将 8 秒无声 GIF 的评分权重调整为实际视频目标"
     }
   ]
 }

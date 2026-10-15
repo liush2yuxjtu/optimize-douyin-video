@@ -11,7 +11,7 @@
     "builtinDocuments": 53,
     "treeTruncated": false
   },
-  "scope": "Index only. No private source bodies copied; no runtime execution or installation.",
+  "scope": "Discovery index plus three P0 adaptations in skills/. P1–P3 not integrated in this change. No Grokbot runtime invoked.",
   "items": [
     {
       "id": "daily-brief/verify/SKILL.md",
@@ -207,11 +207,12 @@
       "id": "pitch-bot/skills/speak-in-my-voice/SKILL.md",
       "skill": "speak-in-my-voice",
       "priority": "P0",
-      "status": "待适配",
+      "status": "已适配入库",
       "use": "个人口吻与照念稿",
-      "next": "改为短视频场景；规范 skill name；实际检查手机排版",
+      "next": "按实际 brief 使用；成片与手机排版需实测",
       "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/pitch-bot/skills/speak-in-my-voice/SKILL.md",
-      "verification": "source-inspected; runtime-not-tested"
+      "verification": "adapted; frontmatter-and-links-validated; runtime-not-tested",
+      "localPath": "skills/speak-in-my-voice/SKILL.md"
     },
     {
       "id": "pitch-bot/skills/yc-pitch-customer/SKILL.md",
@@ -257,11 +258,12 @@
       "id": "shared-skills/viral-topic-picking/SKILL.md",
       "skill": "viral-topic-picking",
       "priority": "P0",
-      "status": "待适配",
+      "status": "已适配入库",
       "use": "选题、钩子、六段口播",
-      "next": "把四问标为创作启发；老书限制改为可选；先核对引用来源",
+      "next": "按实际 brief 使用；成片与手机排版需实测",
       "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/viral-topic-picking/SKILL.md",
-      "verification": "source-inspected; runtime-not-tested"
+      "verification": "adapted; frontmatter-and-links-validated; runtime-not-tested",
+      "localPath": "skills/viral-topic-picking/SKILL.md"
     },
     {
       "id": "shared-skills/yc-pitch/SKILL.md",
@@ -317,11 +319,12 @@
       "id": "feature-recorder/skills/record-production-feature/references/story-research.md",
       "skill": "story-research",
       "priority": "P0",
-      "status": "待适配",
+      "status": "已适配入库",
       "use": "故事调研和候选评分",
-      "next": "将 8 秒无声 GIF 的评分权重调整为实际视频目标",
+      "next": "按实际 brief 使用；成片与手机排版需实测",
       "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/feature-recorder/skills/record-production-feature/references/story-research.md",
-      "verification": "source-inspected; runtime-not-tested"
+      "verification": "adapted; frontmatter-and-links-validated; runtime-not-tested",
+      "localPath": "skills/story-research/SKILL.md"
     },
     {
       "id": "github-cover-bot/skills/baoyu-design/built-in-skills/animated-video.md",
