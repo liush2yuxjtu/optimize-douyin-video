@@ -1,0 +1,19 @@
+{
+  "description": "Video production session checks",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "zsh \"$(git rev-parse --show-toplevel)/.codex/hooks/session_start_ffmpeg.sh\"",
+            "statusMessage": "Checking FFmpeg for video production",
+            "timeout": 30,
+            "additionalContextLimit": 1000
+          }
+        ]
+      }
+    ]
+  }
+}
