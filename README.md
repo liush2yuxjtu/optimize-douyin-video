@@ -49,3 +49,7 @@ MCP 使用 stdio：`node src/mcp-server.js`。
 - 不虚构第一人称经历、成绩、客户或来源。事实与推断分开，未知写“待查证”。
 
 来源版本、路径与文件校验值见 `skills-sources.json`。Anthropic 文件原样保留，许可证见 `licenses/anthropic-marketing-Apache-2.0.txt`；`unslop` 来自仓库所有者的公开 `my-release-skills`，原仓库未发现 LICENSE，本次不替其授予额外许可证。
+
+## Skills 发现与整合优先级
+
+查看 [GrokBots skills 索引与分级](docs/grokbots-skills-index.md)：覆盖 30 个 skill 入口和 7 个重点模块，记录优先级、依赖、重复项及待验证问题。可程序读取 [JSON 索引](docs/grokbots-skills-index.json)。索引不代表安装或运行验收完成。

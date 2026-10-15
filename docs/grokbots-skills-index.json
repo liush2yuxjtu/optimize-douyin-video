@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-10-16",
+  "sourceRepository": "liush2yuxjtu/GrokBots",
+  "sourceVisibility": "private",
+  "sourceCommit": "ae8dce0adfb6551cd782247eab520f80d407e31b",
+  "coverage": {
+    "treeEntries": 572,
+    "files": 428,
+    "skillManifests": 30,
+    "builtinDocuments": 53,
+    "treeTruncated": false
+  },
+  "scope": "Index only. No private source bodies copied; no runtime execution or installation.",
+  "items": [
+    {
+      "id": "daily-brief/verify/SKILL.md",
+      "skill": "verify",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/daily-brief/verify/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "feature-recorder/skills/record-production-feature/SKILL.md",
+      "skill": "record-production-feature",
+      "priority": "P1",
+      "status": "依赖未齐",
+      "use": "真实产品录屏与 MP4/GIF",
+      "next": "补齐 ui-demo；拆出 ChatCut 英文 UI、抠图、Mac mini 专属约束",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/feature-recorder/skills/record-production-feature/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "github-cover-bot/skills/baoyu-design/SKILL.md",
+      "skill": "baoyu-design",
+      "priority": "P1",
+      "status": "接口待修",
+      "use": "动画、封面、画板与视频导出",
+      "next": "重点接通 animations-v3 与 gen-video；音轨需单独实现并验收",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "grok-bot/verify/selfmedia-mcp/SKILL.md",
+      "skill": "selfmedia-mcp",
+      "priority": "P1",
+      "status": "参考方法",
+      "use": "只读账号数据验收",
+      "next": "本仓库缺其 server.py / verify.py；提炼验收标准，不视为可运行 MCP",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/grok-bot/verify/selfmedia-mcp/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "grokbotwaker/skills/verify-mcp/SKILL.md",
+      "skill": "verify-mcp",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/grokbotwaker/skills/verify-mcp/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "just-chat-bot/skills/product-photo-fetch/SKILL.md",
+      "skill": "product-photo-fetch",
+      "priority": "P2",
+      "status": "条件复用",
+      "use": "产品图素材搜集",
+      "next": "获取图片不等于获得再发布许可",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/just-chat-bot/skills/product-photo-fetch/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "just-chat-bot/skills/seo-geo-opc/SKILL.md",
+      "skill": "seo-geo-opc",
+      "priority": "P2",
+      "status": "待核实",
+      "use": "网站 SEO/GEO",
+      "next": "核实平台能力和引用；仅用于外部落地页",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/just-chat-bot/skills/seo-geo-opc/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "liu-s-assitant/skills/grok-skill-creator-cowork-style/SKILL.md",
+      "skill": "grok-skill-creator-cowork-style",
+      "priority": "P2",
+      "status": "条件复用",
+      "use": "skill 评估与迭代",
+      "next": "映射当前工具；不自动调用 Grokbot",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/liu-s-assitant/skills/grok-skill-creator-cowork-style/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "liu-s-assitant/skills/mini-svg-open-pr-board/SKILL.md",
+      "skill": "mini-svg-open-pr-board",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/liu-s-assitant/skills/mini-svg-open-pr-board/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/brand-review/SKILL.md",
+      "skill": "brand-review",
+      "priority": "P2",
+      "status": "已覆盖",
+      "use": "已导入的通用营销能力",
+      "next": "正文与已导入版本一致，仅追加连接器附录",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/brand-review/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/campaign-plan/SKILL.md",
+      "skill": "campaign-plan",
+      "priority": "P2",
+      "status": "已覆盖",
+      "use": "已导入的通用营销能力",
+      "next": "正文与已导入版本一致，仅追加连接器附录",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/campaign-plan/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/competitive-brief/SKILL.md",
+      "skill": "competitive-brief",
+      "priority": "P2",
+      "status": "已覆盖",
+      "use": "已导入的通用营销能力",
+      "next": "正文与已导入版本一致，仅追加连接器附录",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/competitive-brief/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/content-creation/SKILL.md",
+      "skill": "content-creation",
+      "priority": "P2",
+      "status": "已覆盖",
+      "use": "已导入的通用营销能力",
+      "next": "正文完全一致，无需复制",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/content-creation/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/draft-content/SKILL.md",
+      "skill": "draft-content",
+      "priority": "P2",
+      "status": "已覆盖",
+      "use": "已导入的通用营销能力",
+      "next": "正文与已导入版本一致，仅追加连接器附录",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/draft-content/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/email-sequence/SKILL.md",
+      "skill": "email-sequence",
+      "priority": "P2",
+      "status": "低关联",
+      "use": "邮件内容序列",
+      "next": "仅在站外转化需求明确时使用",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/email-sequence/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "marketing-bot/skills/performance-report/SKILL.md",
+      "skill": "performance-report",
+      "priority": "P2",
+      "status": "已覆盖",
+      "use": "已导入的通用营销能力",
+      "next": "正文与已导入版本一致，仅追加连接器附录",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/marketing-bot/skills/performance-report/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "mbp-monitor/skills/claude-design-reference/SKILL.md",
+      "skill": "claude-design-reference",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/mbp-monitor/skills/claude-design-reference/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "mbp-monitor/skills/claude-skill-design/SKILL.md",
+      "skill": "claude-skill-design",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/mbp-monitor/skills/claude-skill-design/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "paperradar/verify/SKILL.md",
+      "skill": "verify",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/paperradar/verify/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "pitch-bot/skills/speak-in-my-voice/SKILL.md",
+      "skill": "speak-in-my-voice",
+      "priority": "P0",
+      "status": "待适配",
+      "use": "个人口吻与照念稿",
+      "next": "改为短视频场景；规范 skill name；实际检查手机排版",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/pitch-bot/skills/speak-in-my-voice/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "pitch-bot/skills/yc-pitch-customer/SKILL.md",
+      "skill": "yc-pitch-customer",
+      "priority": "P2",
+      "status": "低关联",
+      "use": "客户访谈、销售话术",
+      "next": "只提炼表达方法；不引入会议 app 和定时录音流程",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/pitch-bot/skills/yc-pitch-customer/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "seo-audit/skills/seo-audit/SKILL.md",
+      "skill": "seo-audit",
+      "priority": "P2",
+      "status": "低关联",
+      "use": "网站 SEO",
+      "next": "不把网页 SEO 当作抖音推荐算法优化",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/seo-audit/skills/seo-audit/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "shared-skills/archifax/SKILL.md",
+      "skill": "archifax",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/archifax/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "shared-skills/clash-node-probe/SKILL.md",
+      "skill": "clash-node-probe",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/clash-node-probe/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "shared-skills/viral-topic-picking/SKILL.md",
+      "skill": "viral-topic-picking",
+      "priority": "P0",
+      "status": "待适配",
+      "use": "选题、钩子、六段口播",
+      "next": "把四问标为创作启发；老书限制改为可选；先核对引用来源",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/viral-topic-picking/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "shared-skills/yc-pitch/SKILL.md",
+      "skill": "yc-pitch",
+      "priority": "P2",
+      "status": "低关联",
+      "use": "项目价值表达",
+      "next": "只提炼叙事结构，不复制融资流程",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/shared-skills/yc-pitch/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "tailnetbot/skills/tailscale-site-monitor/SKILL.md",
+      "skill": "tailscale-site-monitor",
+      "priority": "P3",
+      "status": "暂缓",
+      "use": "基础设施或项目专用参考",
+      "next": "不纳入抖音创作主链",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/tailnetbot/skills/tailscale-site-monitor/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "voice-call-setter/skills/eli5-gen-gb/SKILL.md",
+      "skill": "eli5-gen-gb",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "图解分镜",
+      "next": "映射当前 image tool；另补旁白、剪辑与合成",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/voice-call-setter/skills/eli5-gen-gb/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "voice-call-setter/skills/eli5-svg-gb/SKILL.md",
+      "skill": "eli5-svg-gb",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "可编辑 SVG 图解",
+      "next": "保留 SVG/PNG 源；另补动画与视频合成",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/voice-call-setter/skills/eli5-svg-gb/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "voice-call-setter/skills/eli5/SKILL.md",
+      "skill": "eli5",
+      "priority": "P2",
+      "status": "入口重复",
+      "use": "图解默认入口",
+      "next": "与 eli5-gen-gb 合并；避免 /eli5 同时触发 SVG 与图片路径",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/voice-call-setter/skills/eli5/SKILL.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "feature-recorder/skills/record-production-feature/references/story-research.md",
+      "skill": "story-research",
+      "priority": "P0",
+      "status": "待适配",
+      "use": "故事调研和候选评分",
+      "next": "将 8 秒无声 GIF 的评分权重调整为实际视频目标",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/feature-recorder/skills/record-production-feature/references/story-research.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "github-cover-bot/skills/baoyu-design/built-in-skills/animated-video.md",
+      "skill": "animated-video",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "9:16 连续分镜、可调时间线",
+      "next": "需要 animations-v3.jsx 与 Tweaks 组件",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/built-in-skills/animated-video.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "github-cover-bot/skills/baoyu-design/built-in-skills/export-as-video.md",
+      "skill": "export-as-video",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "逐帧导出使用说明",
+      "next": "默认 __animStage 与 v3 未接通",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/built-in-skills/export-as-video.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "github-cover-bot/skills/baoyu-design/agents/gen-video/package.json",
+      "skill": "gen-video",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "实际视频渲染程序",
+      "next": "Playwright + Chromium + FFmpeg；补桥接；本地编码器无音频混合",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/agents/gen-video/package.json",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "github-cover-bot/skills/baoyu-design/built-in-skills/social-media-content.md",
+      "skill": "social-media-content",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "封面、轮播、多尺寸素材板",
+      "next": "适配抖音预览；宿主协议不能假定可用",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/built-in-skills/social-media-content.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "github-cover-bot/skills/baoyu-design/built-in-skills/tweaks-protocol.md",
+      "skill": "tweaks-protocol",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "调整面板与持久化协议",
+      "next": "需实现宿主消息处理和保存，单发 postMessage 不保证持久化",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/github-cover-bot/skills/baoyu-design/built-in-skills/tweaks-protocol.md",
+      "verification": "source-inspected; runtime-not-tested"
+    },
+    {
+      "id": "feature-recorder/skills/record-production-feature/scripts/build_feature_media.py",
+      "skill": "build-feature-media",
+      "priority": "P1",
+      "status": "待适配",
+      "use": "原片派生 MP4/GIF",
+      "next": "依赖 probe_email_media、FFmpeg、ffprobe；默认校验 Darwin 与目标主机",
+      "source": "https://github.com/liush2yuxjtu/GrokBots/blob/ae8dce0adfb6551cd782247eab520f80d407e31b/feature-recorder/skills/record-production-feature/scripts/build_feature_media.py",
+      "verification": "source-inspected; runtime-not-tested"
+    }
+  ]
+}
