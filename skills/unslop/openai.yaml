@@ -1,0 +1,6 @@
+interface:
+  display_name: "Unslop"
+  short_description: "Remove AI writing patterns while preserving verified release facts"
+  default_prompt: "Apply unslop to the current release copy and preserve its verified facts."
+policy:
+  allow_implicit_invocation: false

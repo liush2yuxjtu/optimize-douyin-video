@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "skill": "content-creation",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "e6b505348c39c6e751a70d52ff407e7b0a6bf676",
+      "source_path": "marketing/skills/content-creation",
+      "license": "Apache-2.0",
+      "modified": false,
+      "sha256": "17f0bfd536502a91c760accaa1ae6c0c76c3812973571729664133e282c5dded"
+    },
+    {
+      "skill": "draft-content",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "e6b505348c39c6e751a70d52ff407e7b0a6bf676",
+      "source_path": "marketing/skills/draft-content",
+      "license": "Apache-2.0",
+      "modified": false,
+      "sha256": "0bfe029dcc039ff71a76b0fec3c5d900fba0e447eb9dcd505ab25b14be3577fd"
+    },
+    {
+      "skill": "brand-review",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "e6b505348c39c6e751a70d52ff407e7b0a6bf676",
+      "source_path": "marketing/skills/brand-review",
+      "license": "Apache-2.0",
+      "modified": false,
+      "sha256": "759f29397a908c32521080247292a4e1c52ac01643bea70ccd6e807e86c1fa4b"
+    },
+    {
+      "skill": "campaign-plan",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "e6b505348c39c6e751a70d52ff407e7b0a6bf676",
+      "source_path": "marketing/skills/campaign-plan",
+      "license": "Apache-2.0",
+      "modified": false,
+      "sha256": "f0b146074b64ee0fd52f7864e30191eab83878c8c1e3e7cf24754e13c7dbfad3"
+    },
+    {
+      "skill": "competitive-brief",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "e6b505348c39c6e751a70d52ff407e7b0a6bf676",
+      "source_path": "marketing/skills/competitive-brief",
+      "license": "Apache-2.0",
+      "modified": false,
+      "sha256": "c1e5442facbc3206ac6a77392bef009fe9aff4ba7c2678e2f4118be2f6be82b3"
+    },
+    {
+      "skill": "performance-report",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "e6b505348c39c6e751a70d52ff407e7b0a6bf676",
+      "source_path": "marketing/skills/performance-report",
+      "license": "Apache-2.0",
+      "modified": false,
+      "sha256": "997397e23ba5124cdcbbf17e4be9f5cb36f2a2145b5648e02b2852c91c3cc140"
+    },
+    {
+      "skill": "unslop",
+      "repository": "liush2yuxjtu/my-release-skills",
+      "commit": "645648d41d353a691ff10e05e4776e0d0e9b5c3b",
+      "source_path": "skills/unslop",
+      "license": "No repository license found; copied at repository owner request; no additional license granted",
+      "modified": false,
+      "sha256": "181883e539caec8258ec9129e3ba5f133409144a2cbf2aa361158ab94cfc3441"
+    }
+  ]
+}
