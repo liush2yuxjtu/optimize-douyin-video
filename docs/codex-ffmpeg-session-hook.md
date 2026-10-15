@@ -11,7 +11,7 @@ This project includes a project-level Codex hook for local video work.
 
 On `startup`, `resume`, `clear`, or `compact`:
 
-1. Reuse an existing `ffmpeg` and `ffprobe) installation.
+1. Reuse an existing `ffmpeg` and `ffprobe` installation.
 2. If either binary is missing and Homebrew is available, run `brew install ffmpeg`.
 3. Print a short readiness or blocked message.
 4. Never read credentials, cookies, or Douyin account data.
