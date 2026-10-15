@@ -4,6 +4,7 @@
 
 ## 当前范围
 - `douyin_status`：检查已打开的抖音创作者页面，不将“页面存在”视为已登录。
+- `douyin_account_status`：读取页面可见的账号名和抖音号，用于核对当前页面账号；不读取 Cookie、密码或 token。
 - `douyin_read_visible`：读取该页面可见文本；不点击、不导航。
 - 不提供发布、私信、评论、删除、任意 JavaScript、Cookie 导出工具。
 - 浏览器连接固定为 Mac mini 的 loopback CDP 9335；不要对公网开放 CDP。
@@ -17,6 +18,13 @@ MCP 使用 stdio：`node src/mcp-server.js`。
 必须在 Mac mini 运行，使用已授权的机器连接。
 这是本地 MCP，尚未注册为 ChatGPT 独立 connector；不等于公网 MCP endpoint。
 本工具不能保证平台不会限制自动化访问；遇到验证或风控停止自动操作。
+
+仓库包含 MCP server 源码：`src/mcp-server.js`。它不是只读 client wrapper。`scripts/verify.js` 会枚举并调用三个只读 tools，并确认发布 tool 被拒绝。
+GitHub repository secret 名称和边界见 [`docs/github-secrets.md`](docs/github-secrets.md)。secret 值不会写入仓库。
+
+## 健康可视化
+
+打开 [`docs/mcp-health.html`](docs/mcp-health.html) 查看项目 MCP 的端到端健康快照、工作区连接记录和验证证据。页面是静态只读视图，不会自动刷新或执行外部操作。
 
 ## Codex 视频制作启动检查
 
